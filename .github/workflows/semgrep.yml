@@ -2,7 +2,7 @@ on:
   pull_request: {}
   schedule:
   - cron: '0 0 * * 0'
-name: Semgrep
+name: Semgrep Static Analysis
 jobs:
   semgrep:
     name: Scan
