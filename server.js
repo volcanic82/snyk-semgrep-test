@@ -4,6 +4,8 @@ const mongoose =  require('mongoose');
 // DB config
 const mongodb = require('./config/keys').mongoURI;
 
+var password = 'Password!'
+
 // mongdb connect
 mongoose.connect(mongodb)
 .then(()=>console.log("mongdb Connected"))
