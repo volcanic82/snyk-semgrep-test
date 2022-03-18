@@ -15,3 +15,5 @@ updates:
     schedule:
       interval: "daily"
       
+on:
+  merge_request
