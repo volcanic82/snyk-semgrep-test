@@ -15,5 +15,11 @@ updates:
     schedule:
       interval: "daily"
       
+name: Dependabot Check
 on:
-  merge_request
+  pull_request:
+      branches:
+        - master
+  push:
+      branches:
+        - master
